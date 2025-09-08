@@ -1,0 +1,26 @@
+def bubble_sort(arr):
+    """
+    冒泡排序算法实现
+
+    Args:
+        arr: 待排序的列表
+
+    Returns:
+        排序后的列表
+    """
+    n = len(arr)
+    # 遍历所有数组元素
+    for i in range(n):
+        # 最后i个元素已经有序，无需比较
+        for j in range(0, n-i-1):
+            # 如果当前元素比下一个元素大，则交换
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
+
+# 测试代码
+if __name__ == "__main__":
+    test_arr = [64, 34, 25, 12, 22, 11, 90]
+    print("原始数组:", test_arr)
+    sorted_arr = bubble_sort(test_arr.copy())
+    print("排序后数组:", sorted_arr)
