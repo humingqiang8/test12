@@ -43,3 +43,15 @@ __pycache__/
 .coverage
 .pytest_cache/
 .pyenv/
+venv/
+env/
+ENV/
+.venv/
+.env/
+.pytest_cache
+.coverage
+.pyre/
+dist/
+build/
+*.egg-info/
+.eggs/
