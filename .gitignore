@@ -43,3 +43,31 @@ __pycache__/
 .coverage
 .pytest_cache/
 .pyenv/
+
+# C/C++
+*.o
+*.obj
+*.exe
+*.out
+*_test
+*.elf
+*.bin
+*.hex
+*.axf
+*.map
+*.d
+*.gcda
+*.gcno
+*.gcov
+gmon.out
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.mod
+go.sum
