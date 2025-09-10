@@ -35,21 +35,9 @@ google-services.json
 
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+*.py[cod]
+*$py.class
 *.so
-.coverage
-.pytest_cache/
-.pyenv/
-# Virtual environments
-venv/
-env/
-ENV/
-.venv/
-.env/
-# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -63,16 +51,20 @@ parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-# PyInstaller
+MANIFEST
 *.manifest
 *.spec
-# Jupyter Notebook
 .ipynb_checkpoints
-# IPython
 profile_default/
 ipython_config.py
-# Environment variables
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak
+venv.bak
