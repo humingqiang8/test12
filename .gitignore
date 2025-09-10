@@ -43,3 +43,19 @@ __pycache__/
 .coverage
 .pytest_cache/
 .pyenv/
+venv/
+env/
+.venv/
+.env/
+
+# Rust
+target/
+Cargo.lock
+
+# Node.js
+node_modules/
+dist/
+build/ # This might be too generic, but is common for JS build tools
+*.tgz
+package-lock.json
+yarn.lock
